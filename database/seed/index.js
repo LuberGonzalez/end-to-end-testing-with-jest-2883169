@@ -1,4 +1,3 @@
-/* eslint-disable consistent-return */
 // import 'dotenv/config';
 const bcrypt = require('bcrypt');
 

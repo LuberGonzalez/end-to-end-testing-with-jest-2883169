@@ -1,4 +1,3 @@
-/* eslint-disable consistent-return */
 const mongoose = require('../dbConection');
 
 const { Schema } = mongoose;
