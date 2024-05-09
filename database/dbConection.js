@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable consistent-return */
 const mongoose = require('mongoose');
 require('dotenv').config();
 

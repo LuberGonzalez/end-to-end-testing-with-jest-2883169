@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable consistent-return */
 const Recipes = require('../database/services/recipes');
 
 const RecipesController = {
@@ -20,7 +22,7 @@ const RecipesController = {
 
   // Create and Save a new Recipes
   create: async (req, res) => {
-    console.log('create')
+    // console.log('create')
     try {
       // define variables
       const {
@@ -99,7 +101,7 @@ const RecipesController = {
 
   // Update the recipes identified by the parameter
   update: async (req, res) => {
-    console.log('update');
+    // console.log('update');
     try {
       // check if req body is empty
       if (Object.keys(req.body).length === 0) {

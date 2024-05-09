@@ -1,4 +1,6 @@
 /* eslint-disable no-console */
+/* eslint-disable linebreak-style */
+/* eslint-disable consistent-return */
 // import 'dotenv/config';
 const bcrypt = require('bcrypt');
 
