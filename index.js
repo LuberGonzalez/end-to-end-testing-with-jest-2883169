@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable consistent-return */
 const express = require('express');
 // const bodyParser = require('body-parser');

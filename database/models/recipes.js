@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable consistent-return */
 const mongoose = require('../dbConection');
 
