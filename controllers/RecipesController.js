@@ -130,7 +130,7 @@ const RecipesController = {
       // check if recipe exist
       const recipeExist = await Recipes.fetchById(id);
       if (!recipeExist) {
-        return res.status(400).send({
+        return res.status(404).send({
           success: false,
           message: `Recipe with id ${id} does not exist`,
         });
